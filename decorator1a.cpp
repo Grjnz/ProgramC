@@ -93,7 +93,7 @@ class SurplusVoice : public BasicPlanWrapper {
     float cost() {
         // 呼叫decorator class的包裹物件性質: BasicPlanWrapper::cost
         // 進行疊加
-        return BasicPlanWrapper::cost() + fee;
+        return BasicPlanWrapper::cost() + fee; 
     }
 };
 
